@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use("/books",router);
 
-mongoose.connect("mongodb+srv://admin:j0jGNjhNbh9fRlJU@cluster0.zja5qqi.mongodb.net/bookStore?retryWrites=true&w=majority"
+mongoose.connect("*******"
 ).then(()=>console.log("Connected to Database"))
  .then(()=> {
     app.listen(5000)
